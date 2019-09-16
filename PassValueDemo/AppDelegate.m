@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "MainViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,15 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    [UIApplication sharedApplication].applicationIconBadgeNumber = 0;
+    MainViewController *MainVC = [MainViewController new];
+    self.window.rootViewController = MainVC;
+    [self.window makeKeyWindow];
+    
+    
     return YES;
 }
 

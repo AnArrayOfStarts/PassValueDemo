@@ -13,6 +13,14 @@
 		31464987232FD0840012F31B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31464986232FD0840012F31B /* Assets.xcassets */; };
 		3146498A232FD0840012F31B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31464988232FD0840012F31B /* LaunchScreen.storyboard */; };
 		3146498D232FD0840012F31B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3146498C232FD0840012F31B /* main.m */; };
+		3146499D232FD27D0012F31B /* AttributeOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3146499C232FD27D0012F31B /* AttributeOneViewController.m */; };
+		314649A0232FD28A0012F31B /* AttributeTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3146499F232FD28A0012F31B /* AttributeTwoViewController.m */; };
+		314649A7232FD3D10012F31B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 314649A6232FD3D10012F31B /* MainViewController.m */; };
+		314649AC232FE1830012F31B /* InstanceOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 314649AB232FE1830012F31B /* InstanceOneViewController.m */; };
+		314649AF232FE18F0012F31B /* InstanceTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 314649AE232FE18F0012F31B /* InstanceTwoViewController.m */; };
+		314649B2232FE2350012F31B /* ShareInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 314649B1232FE2350012F31B /* ShareInstance.m */; };
+		314649B8232FE7080012F31B /* UserDefaultsOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 314649B5232FE7080012F31B /* UserDefaultsOneViewController.m */; };
+		314649B9232FE7080012F31B /* UserDefaultsTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 314649B7232FE7080012F31B /* UserDefaultsTwoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,22 @@
 		31464989232FD0840012F31B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3146498B232FD0840012F31B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3146498C232FD0840012F31B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3146499B232FD27D0012F31B /* AttributeOneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AttributeOneViewController.h; sourceTree = "<group>"; };
+		3146499C232FD27D0012F31B /* AttributeOneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttributeOneViewController.m; sourceTree = "<group>"; };
+		3146499E232FD28A0012F31B /* AttributeTwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AttributeTwoViewController.h; sourceTree = "<group>"; };
+		3146499F232FD28A0012F31B /* AttributeTwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttributeTwoViewController.m; sourceTree = "<group>"; };
+		314649A5232FD3D10012F31B /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		314649A6232FD3D10012F31B /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		314649AA232FE1830012F31B /* InstanceOneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InstanceOneViewController.h; sourceTree = "<group>"; };
+		314649AB232FE1830012F31B /* InstanceOneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstanceOneViewController.m; sourceTree = "<group>"; };
+		314649AD232FE18F0012F31B /* InstanceTwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InstanceTwoViewController.h; sourceTree = "<group>"; };
+		314649AE232FE18F0012F31B /* InstanceTwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstanceTwoViewController.m; sourceTree = "<group>"; };
+		314649B0232FE2350012F31B /* ShareInstance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareInstance.h; sourceTree = "<group>"; };
+		314649B1232FE2350012F31B /* ShareInstance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareInstance.m; sourceTree = "<group>"; };
+		314649B4232FE7080012F31B /* UserDefaultsOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultsOneViewController.h; sourceTree = "<group>"; };
+		314649B5232FE7080012F31B /* UserDefaultsOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultsOneViewController.m; sourceTree = "<group>"; };
+		314649B6232FE7080012F31B /* UserDefaultsTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultsTwoViewController.h; sourceTree = "<group>"; };
+		314649B7232FE7080012F31B /* UserDefaultsTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultsTwoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +82,97 @@
 		3146497C232FD0830012F31B /* PassValueDemo */ = {
 			isa = PBXGroup;
 			children = (
+				31464995232FD2060012F31B /* Class */,
+				31464994232FD1B50012F31B /* Resource */,
 				3146497D232FD0830012F31B /* AppDelegate.h */,
 				3146497E232FD0830012F31B /* AppDelegate.m */,
+			);
+			path = PassValueDemo;
+			sourceTree = "<group>";
+		};
+		31464993232FD1A30012F31B /* Useless */ = {
+			isa = PBXGroup;
+			children = (
+				3146498C232FD0840012F31B /* main.m */,
 				31464980232FD0830012F31B /* ViewController.h */,
 				31464981232FD0830012F31B /* ViewController.m */,
 				31464983232FD0830012F31B /* Main.storyboard */,
-				31464986232FD0840012F31B /* Assets.xcassets */,
 				31464988232FD0840012F31B /* LaunchScreen.storyboard */,
-				3146498B232FD0840012F31B /* Info.plist */,
-				3146498C232FD0840012F31B /* main.m */,
 			);
-			path = PassValueDemo;
+			path = Useless;
+			sourceTree = "<group>";
+		};
+		31464994232FD1B50012F31B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				31464986232FD0840012F31B /* Assets.xcassets */,
+				3146498B232FD0840012F31B /* Info.plist */,
+				31464993232FD1A30012F31B /* Useless */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		31464995232FD2060012F31B /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				31464996232FD20E0012F31B /* Module */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		31464996232FD20E0012F31B /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				314649B3232FE6C20012F31B /* UserDefaults */,
+				314649A9232FE1390012F31B /* Instance */,
+				314649A1232FD3510012F31B /* Main */,
+				31464997232FD2210012F31B /* Attriubute */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		31464997232FD2210012F31B /* Attriubute */ = {
+			isa = PBXGroup;
+			children = (
+				3146499B232FD27D0012F31B /* AttributeOneViewController.h */,
+				3146499C232FD27D0012F31B /* AttributeOneViewController.m */,
+				3146499E232FD28A0012F31B /* AttributeTwoViewController.h */,
+				3146499F232FD28A0012F31B /* AttributeTwoViewController.m */,
+			);
+			path = Attriubute;
+			sourceTree = "<group>";
+		};
+		314649A1232FD3510012F31B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				314649A5232FD3D10012F31B /* MainViewController.h */,
+				314649A6232FD3D10012F31B /* MainViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		314649A9232FE1390012F31B /* Instance */ = {
+			isa = PBXGroup;
+			children = (
+				314649AA232FE1830012F31B /* InstanceOneViewController.h */,
+				314649AB232FE1830012F31B /* InstanceOneViewController.m */,
+				314649AD232FE18F0012F31B /* InstanceTwoViewController.h */,
+				314649AE232FE18F0012F31B /* InstanceTwoViewController.m */,
+				314649B0232FE2350012F31B /* ShareInstance.h */,
+				314649B1232FE2350012F31B /* ShareInstance.m */,
+			);
+			path = Instance;
+			sourceTree = "<group>";
+		};
+		314649B3232FE6C20012F31B /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				314649B4232FE7080012F31B /* UserDefaultsOneViewController.h */,
+				314649B5232FE7080012F31B /* UserDefaultsOneViewController.m */,
+				314649B6232FE7080012F31B /* UserDefaultsTwoViewController.h */,
+				314649B7232FE7080012F31B /* UserDefaultsTwoViewController.m */,
+			);
+			path = UserDefaults;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,8 +245,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				314649B9232FE7080012F31B /* UserDefaultsTwoViewController.m in Sources */,
+				3146499D232FD27D0012F31B /* AttributeOneViewController.m in Sources */,
+				314649A0232FD28A0012F31B /* AttributeTwoViewController.m in Sources */,
 				31464982232FD0830012F31B /* ViewController.m in Sources */,
+				314649AC232FE1830012F31B /* InstanceOneViewController.m in Sources */,
+				314649B8232FE7080012F31B /* UserDefaultsOneViewController.m in Sources */,
+				314649AF232FE18F0012F31B /* InstanceTwoViewController.m in Sources */,
+				314649A7232FD3D10012F31B /* MainViewController.m in Sources */,
 				3146498D232FD0840012F31B /* main.m in Sources */,
+				314649B2232FE2350012F31B /* ShareInstance.m in Sources */,
 				3146497F232FD0830012F31B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,7 +399,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7CCDF6GGY6;
-				INFOPLIST_FILE = PassValueDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PassValueDemo/Resource/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +416,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7CCDF6GGY6;
-				INFOPLIST_FILE = PassValueDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PassValueDemo/Resource/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
