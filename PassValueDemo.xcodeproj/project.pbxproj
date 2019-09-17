@@ -21,6 +21,12 @@
 		314649B2232FE2350012F31B /* ShareInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 314649B1232FE2350012F31B /* ShareInstance.m */; };
 		314649B8232FE7080012F31B /* UserDefaultsOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 314649B5232FE7080012F31B /* UserDefaultsOneViewController.m */; };
 		314649B9232FE7080012F31B /* UserDefaultsTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 314649B7232FE7080012F31B /* UserDefaultsTwoViewController.m */; };
+		314649C52330FF610012F31B /* DelegateOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 314649C12330FF610012F31B /* DelegateOneViewController.m */; };
+		314649C62330FF610012F31B /* DelegateTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 314649C42330FF610012F31B /* DelegateTwoViewController.m */; };
+		314649CC233105BD0012F31B /* BlockOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 314649C9233105BD0012F31B /* BlockOneViewController.m */; };
+		314649CD233105BD0012F31B /* BlockTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 314649CB233105BD0012F31B /* BlockTwoViewController.m */; };
+		314649D3233109770012F31B /* NotificationTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 314649CF233109770012F31B /* NotificationTwoViewController.m */; };
+		314649D4233109770012F31B /* NotificationOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 314649D2233109770012F31B /* NotificationOneViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +56,18 @@
 		314649B5232FE7080012F31B /* UserDefaultsOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultsOneViewController.m; sourceTree = "<group>"; };
 		314649B6232FE7080012F31B /* UserDefaultsTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultsTwoViewController.h; sourceTree = "<group>"; };
 		314649B7232FE7080012F31B /* UserDefaultsTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultsTwoViewController.m; sourceTree = "<group>"; };
+		314649C12330FF610012F31B /* DelegateOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelegateOneViewController.m; sourceTree = "<group>"; };
+		314649C22330FF610012F31B /* DelegateOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelegateOneViewController.h; sourceTree = "<group>"; };
+		314649C32330FF610012F31B /* DelegateTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelegateTwoViewController.h; sourceTree = "<group>"; };
+		314649C42330FF610012F31B /* DelegateTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelegateTwoViewController.m; sourceTree = "<group>"; };
+		314649C8233105BD0012F31B /* BlockOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockOneViewController.h; sourceTree = "<group>"; };
+		314649C9233105BD0012F31B /* BlockOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockOneViewController.m; sourceTree = "<group>"; };
+		314649CA233105BD0012F31B /* BlockTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockTwoViewController.h; sourceTree = "<group>"; };
+		314649CB233105BD0012F31B /* BlockTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockTwoViewController.m; sourceTree = "<group>"; };
+		314649CF233109770012F31B /* NotificationTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationTwoViewController.m; sourceTree = "<group>"; };
+		314649D0233109770012F31B /* NotificationTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationTwoViewController.h; sourceTree = "<group>"; };
+		314649D1233109770012F31B /* NotificationOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationOneViewController.h; sourceTree = "<group>"; };
+		314649D2233109770012F31B /* NotificationOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationOneViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +141,9 @@
 		31464996232FD20E0012F31B /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				314649CE233109590012F31B /* Notify */,
+				314649C72331049B0012F31B /* Block */,
+				314649C02330FDA40012F31B /* Delegate */,
 				314649B3232FE6C20012F31B /* UserDefaults */,
 				314649A9232FE1390012F31B /* Instance */,
 				314649A1232FD3510012F31B /* Main */,
@@ -173,6 +194,39 @@
 				314649B7232FE7080012F31B /* UserDefaultsTwoViewController.m */,
 			);
 			path = UserDefaults;
+			sourceTree = "<group>";
+		};
+		314649C02330FDA40012F31B /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				314649C22330FF610012F31B /* DelegateOneViewController.h */,
+				314649C12330FF610012F31B /* DelegateOneViewController.m */,
+				314649C32330FF610012F31B /* DelegateTwoViewController.h */,
+				314649C42330FF610012F31B /* DelegateTwoViewController.m */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		314649C72331049B0012F31B /* Block */ = {
+			isa = PBXGroup;
+			children = (
+				314649C8233105BD0012F31B /* BlockOneViewController.h */,
+				314649C9233105BD0012F31B /* BlockOneViewController.m */,
+				314649CA233105BD0012F31B /* BlockTwoViewController.h */,
+				314649CB233105BD0012F31B /* BlockTwoViewController.m */,
+			);
+			path = Block;
+			sourceTree = "<group>";
+		};
+		314649CE233109590012F31B /* Notify */ = {
+			isa = PBXGroup;
+			children = (
+				314649D1233109770012F31B /* NotificationOneViewController.h */,
+				314649D2233109770012F31B /* NotificationOneViewController.m */,
+				314649D0233109770012F31B /* NotificationTwoViewController.h */,
+				314649CF233109770012F31B /* NotificationTwoViewController.m */,
+			);
+			path = Notify;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,15 +300,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				314649B9232FE7080012F31B /* UserDefaultsTwoViewController.m in Sources */,
+				314649CD233105BD0012F31B /* BlockTwoViewController.m in Sources */,
 				3146499D232FD27D0012F31B /* AttributeOneViewController.m in Sources */,
+				314649C52330FF610012F31B /* DelegateOneViewController.m in Sources */,
+				314649D3233109770012F31B /* NotificationTwoViewController.m in Sources */,
 				314649A0232FD28A0012F31B /* AttributeTwoViewController.m in Sources */,
+				314649CC233105BD0012F31B /* BlockOneViewController.m in Sources */,
 				31464982232FD0830012F31B /* ViewController.m in Sources */,
 				314649AC232FE1830012F31B /* InstanceOneViewController.m in Sources */,
 				314649B8232FE7080012F31B /* UserDefaultsOneViewController.m in Sources */,
 				314649AF232FE18F0012F31B /* InstanceTwoViewController.m in Sources */,
+				314649C62330FF610012F31B /* DelegateTwoViewController.m in Sources */,
 				314649A7232FD3D10012F31B /* MainViewController.m in Sources */,
 				3146498D232FD0840012F31B /* main.m in Sources */,
 				314649B2232FE2350012F31B /* ShareInstance.m in Sources */,
+				314649D4233109770012F31B /* NotificationOneViewController.m in Sources */,
 				3146497F232FD0830012F31B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

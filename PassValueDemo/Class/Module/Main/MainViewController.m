@@ -12,6 +12,10 @@
 #import "AttributeOneViewController.h"
 #import "InstanceOneViewController.h"
 #import "UserDefaultsOneViewController.h"
+#import "DelegateOneViewController.h"
+#import "BlockOneViewController.h"
+#import "NotificationOneViewController.h"
+
 
 @interface MainViewController ()
 
@@ -45,6 +49,24 @@
     [nsUserBtn addTarget:self action:@selector(jumpNsuser) forControlEvents:(UIControlEventTouchUpInside)];
     [self.view addSubview:nsUserBtn];
     
+    UIButton *delegateBtn = [[UIButton alloc] initWithFrame:CGRectMake(100, 250, 200, 50)];
+    [delegateBtn setTitle:@"代理传值" forState:(UIControlStateNormal)];
+    [delegateBtn setTitleColor:[UIColor blackColor] forState:(UIControlStateNormal)];
+    [delegateBtn addTarget:self action:@selector(jumpDelegate) forControlEvents:(UIControlEventTouchUpInside)];
+    [self.view addSubview:delegateBtn];
+    
+    UIButton *blockBtn = [[UIButton alloc] initWithFrame:CGRectMake(100, 300, 200, 50)];
+    [blockBtn setTitle:@"block传值" forState:(UIControlStateNormal)];
+    [blockBtn setTitleColor:[UIColor blackColor] forState:(UIControlStateNormal)];
+    [blockBtn addTarget:self action:@selector(jumpBlock) forControlEvents:(UIControlEventTouchUpInside)];
+    [self.view addSubview:blockBtn];
+
+    UIButton *notifyBtn = [[UIButton alloc] initWithFrame:CGRectMake(100, 350, 200, 50)];
+    [notifyBtn setTitle:@"通知传值" forState:(UIControlStateNormal)];
+    [notifyBtn setTitleColor:[UIColor blackColor] forState:(UIControlStateNormal)];
+    [notifyBtn addTarget:self action:@selector(jumpNotify) forControlEvents:(UIControlEventTouchUpInside)];
+    [self.view addSubview:notifyBtn];
+    
     
     
     
@@ -66,6 +88,21 @@
     [self presentViewController:userVC animated:YES completion:nil];
 }
 
+
+-(void)jumpDelegate{
+    DelegateOneViewController *delegateVC = [DelegateOneViewController new];
+    [self presentViewController:delegateVC animated:YES completion:nil];
+}
+
+-(void)jumpBlock{
+    BlockOneViewController *blockVC = [BlockOneViewController new];
+    [self presentViewController:blockVC animated:YES completion:nil];
+}
+
+-(void)jumpNotify{
+    NotificationOneViewController *notiVC = [NotificationOneViewController new];
+    [self presentViewController:notiVC animated:YES completion:nil];
+}
 
 
 
